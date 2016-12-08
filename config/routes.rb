@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  resources :orders
-  resources :products
+
   scope :api do
     resources :users, except: [:create]
+    #moved from outside scope loop
+    resources :orders
+    resources :products
 
     post 'register', to: 'auth#register'
     post 'login', to: 'auth#login'
