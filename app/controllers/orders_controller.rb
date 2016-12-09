@@ -16,6 +16,8 @@ class OrdersController < ApplicationController
   # POST /orders
   def create
     @order = Order.new(order_params)
+    @order.buyer_id = current_user.id
+    # @order.product = current_product
 
     if @order.save
       render json: @order, status: :created, location: @order
@@ -46,6 +48,6 @@ class OrdersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def order_params
-      params.require(:order).permit(:product_id, :buyer_id, :quantity)
+      params.permit(:product_id, :buyer_id, :quantity)
     end
 end
