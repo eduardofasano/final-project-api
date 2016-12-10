@@ -3,9 +3,9 @@ class OrdersController < ApplicationController
 
   # GET /orders
   def index
-    @orders = Order.all
+    @orders = Order.where(order_params)
 
-    render json: @orders
+    render json: @orders, include: ['product', 'product.seller']
   end
 
   # GET /orders/1

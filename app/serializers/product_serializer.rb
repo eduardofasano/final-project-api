@@ -1,4 +1,5 @@
 class ProductSerializer < ActiveModel::Serializer
   belongs_to :seller
-  attributes :id, :name, :quantity, :unit, :max_price, :min_price, :final_price, :description, :duration, :image
+  has_many :orders
+  attributes :id, :name, :quantity, :unit, :max_price, :min_price, :final_price, :description, :duration, :image, :orders
 end

@@ -11,7 +11,9 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user, include: ['orders', 'orders.product']
+    render json: @user, include: ['products', 'products.orders', 'products.orders.buyer']
+
+    # include: ['orders', 'orders.product', 'products', 'product.orders']
   end
 
   # POST /users
