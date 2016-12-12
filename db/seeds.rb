@@ -33,6 +33,7 @@ stilton = Product.create!({
   quantity: 50,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:10.0,
   min_price:8.0,
   # final_price:
@@ -47,6 +48,7 @@ gorgonzola = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
@@ -61,6 +63,7 @@ taleggio = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
@@ -74,6 +77,7 @@ burrata = Product.create!({
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
+  currency: "GBP",
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -89,11 +93,12 @@ crescenza = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
   duration: 120,
-  image: "http://www.italianfoodexport.es/wp-content/uploads/2015/06/burrata.jpg"
+  image: "https://www.stuzzicante.it/secondi-piatti/formaggi/crescenza_O2.jpg"
 })
 
 mozzarella = Product.create!({
@@ -103,6 +108,7 @@ mozzarella = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
@@ -117,6 +123,7 @@ pecorino = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
@@ -125,12 +132,13 @@ pecorino = Product.create!({
 })
 
 parmiggiano = Product.create!({
-  name: "Pecorino",
-  description: "The most delicious Pecorino cheese of all the land",
+  name: "Parmiggiano",
+  description: "The most delicious Parmiggiano cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
@@ -145,6 +153,7 @@ caciocavallo = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
+  currency: "GBP",
   max_price:12.0,
   min_price:10.0,
   # final_price:
