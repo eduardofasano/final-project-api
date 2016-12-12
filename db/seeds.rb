@@ -31,6 +31,7 @@ stilton = Product.create!({
   description: "The most delicious Stilton cheese of all the land",
   seller_id: emily.id,
   quantity: 50,
+  current_quantity: 0,
   unit:"kg",
   max_price:10.0,
   min_price:8.0,
@@ -44,6 +45,7 @@ gorgonzola = Product.create!({
   description: "The most delicious Gorgonzola cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -57,6 +59,7 @@ taleggio = Product.create!({
   description: "The most delicious Taleggio cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -70,6 +73,7 @@ burrata = Product.create!({
   description: "The most delicious Burrata cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -83,6 +87,7 @@ crescenza = Product.create!({
   description: "The most delicious Crescenza cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -96,6 +101,7 @@ mozzarella = Product.create!({
   description: "The most delicious Mozzarella cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -109,6 +115,7 @@ pecorino = Product.create!({
   description: "The most delicious Pecorino cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -122,6 +129,7 @@ parmiggiano = Product.create!({
   description: "The most delicious Pecorino cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
@@ -135,16 +143,11 @@ caciocavallo = Product.create!({
   description: "The most delicious Caciocavallo cheese of all the land",
   seller_id: emily.id,
   quantity: 30,
+  current_quantity: 0,
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
   # final_price:
   duration: 120,
   image: "http://shop.superlatticini.it/WebRoot/StoreIT5/Shops/16631/5176/930B/AD05/97A3/0056/3E95/9311/C8DB/Caciocavallo_affumicato_S.jpg"
-})
-
-Order.create!({
-  product_id: stilton.id,
-  buyer_id: mike.id,
-  quantity: 20
 })
