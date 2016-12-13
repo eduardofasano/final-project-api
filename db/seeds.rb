@@ -33,10 +33,10 @@ stilton = Product.create!({
   quantity: 50,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:10.0,
   min_price:8.0,
-  # final_price:
+  final_price:10.0,
   duration: 120,
   image: "http://i.dailymail.co.uk/i/pix/2013/03/30/article-0-18605F9F000005DC-421_634x433.jpg"
 })
@@ -48,10 +48,10 @@ gorgonzola = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "https://www.winefetch.com/images/cheese/big_topicimage236.jpg"
 })
@@ -63,10 +63,10 @@ taleggio = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://www.jjzf.dk/wp-content/uploads/2015/02/taleggio.jpg"
 })
@@ -77,11 +77,11 @@ burrata = Product.create!({
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
-  currency: "GBP",
+  currency: "£",
   unit:"kg",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://www.italianfoodexport.es/wp-content/uploads/2015/06/burrata.jpg"
 })
@@ -93,10 +93,10 @@ crescenza = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "https://www.stuzzicante.it/secondi-piatti/formaggi/crescenza_O2.jpg"
 })
@@ -108,10 +108,10 @@ mozzarella = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://www.cucinare.meglio.it/img/notizie/mozzarella-di-bufala.jpg"
 })
@@ -123,10 +123,10 @@ pecorino = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://gastronicks.co.uk/wp-content/uploads/2013/03/Normanno.jpg"
 })
@@ -138,10 +138,10 @@ parmiggiano = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://www.italianherkut.fi/751/parmiggiano-reggiano-24-mesi-1-kg.jpg"
 })
@@ -153,10 +153,10 @@ caciocavallo = Product.create!({
   quantity: 30,
   current_quantity: 0,
   unit:"kg",
-  currency: "GBP",
+  currency: "£",
   max_price:12.0,
   min_price:10.0,
-  # final_price:
+  final_price:12.0,
   duration: 120,
   image: "http://shop.superlatticini.it/WebRoot/StoreIT5/Shops/16631/5176/930B/AD05/97A3/0056/3E95/9311/C8DB/Caciocavallo_affumicato_S.jpg"
 })
