@@ -5,6 +5,7 @@ class AuthController < ApplicationController
     user = User.new(user_params)
     if user.save
       token = Auth.issue({id: user.id, role: user.role, username: user.username})
+      UserMailer.welcome_email(user).deliver_now
       render json: { token: token, user: UserSerializer.new(user) }, status: :ok
     else
       render json: { errors: user.errors.full_messages }, status: :unprocessable_entity

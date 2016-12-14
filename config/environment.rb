@@ -5,13 +5,13 @@ require_relative 'application'
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-        address: "farmsavour@gmail.com",
-        port: 587,
-        domain: "gmail.com",
-        authentication: "",
-        user_name: "farmsavour",
-        password: "GAWDI23FinalProject",
-        enable_starttls_auto: true
+      address: 'smtp.gmail.com',
+      port: 587,
+      domain: 'gmail.com',
+      authentication: 'plain',
+      user_name: 'farmsavour',
+      password: 'GAWDI23FinalProject',
+      enable_starttls_auto: true
     }
   end
 
