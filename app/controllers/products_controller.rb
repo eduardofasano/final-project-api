@@ -1,6 +1,13 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :update, :destroy]
 
+
+  # POST /products/1/expired
+  def expiredEmail
+    UserMailer.expired_email(user).deliver_now
+      render json: @user
+  end
+
   # GET /products
   def index
     @products = Product.all

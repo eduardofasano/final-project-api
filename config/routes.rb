@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     #moved from outside scope loop
     resources :orders
     resources :products
+    get '/products/:id/expired', to: 'products#expiredEmail' 
 
     post 'register', to: 'auth#register'
     post 'login', to: 'auth#login'

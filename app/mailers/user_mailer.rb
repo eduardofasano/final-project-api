@@ -8,4 +8,11 @@ class UserMailer < ApplicationMailer
       :subject => "Welcome to My Awesome Site")
   end
 
+  def expired_email(user)
+    @user = user
+    @url  = 'http://localhost:8000/#/products/:id/expired'
+    mail(:to => user.email,
+    :subject => 'Your order on Farm Savour')
+  end
+
 end
