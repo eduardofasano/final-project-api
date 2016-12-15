@@ -38,7 +38,7 @@ stilton = Product.create!({
   min_price:8.0,
   final_price:10.0,
   enddate: (Time.now + (60*60*24*10)),
-  image: "http://i.dailymail.co.uk/i/pix/2013/03/30/article-0-18605F9F000005DC-421_634x433.jpg"
+  image1: "http://i.dailymail.co.uk/i/pix/2013/03/30/article-0-18605F9F000005DC-421_634x433.jpg"
 })
 
 gorgonzola = Product.create!({
@@ -53,7 +53,7 @@ gorgonzola = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "https://www.winefetch.com/images/cheese/big_topicimage236.jpg"
+  image1: "http://ichef.bbci.co.uk/food/ic/food_16x9_608/foods/g/gorgonzola_cheese_16x9.jpg"
 })
 
 taleggio = Product.create!({
@@ -68,7 +68,7 @@ taleggio = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://www.jjzf.dk/wp-content/uploads/2015/02/taleggio.jpg"
+  image1: "http://www.jjzf.dk/wp-content/uploads/2015/02/taleggio.jpg"
 })
 
 burrata = Product.create!({
@@ -83,7 +83,7 @@ burrata = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://www.italianfoodexport.es/wp-content/uploads/2015/06/burrata.jpg"
+  image1: "http://www.italianfoodexport.es/wp-content/uploads/2015/06/burrata.jpg"
 })
 
 crescenza = Product.create!({
@@ -98,7 +98,7 @@ crescenza = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "https://www.stuzzicante.it/secondi-piatti/formaggi/crescenza_O2.jpg"
+  image1: "https://www.stuzzicante.it/secondi-piatti/formaggi/crescenza_O2.jpg"
 })
 
 mozzarella = Product.create!({
@@ -113,7 +113,7 @@ mozzarella = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://www.cucinare.meglio.it/img/notizie/mozzarella-di-bufala.jpg"
+  image1: "http://www.cucinare.meglio.it/img/notizie/mozzarella-di-bufala.jpg"
 })
 
 pecorino = Product.create!({
@@ -128,7 +128,7 @@ pecorino = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://gastronicks.co.uk/wp-content/uploads/2013/03/Normanno.jpg"
+  image1: "http://gastronicks.co.uk/wp-content/uploads/2013/03/Normanno.jpg"
 })
 
 parmiggiano = Product.create!({
@@ -143,7 +143,7 @@ parmiggiano = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://www.italianherkut.fi/751/parmiggiano-reggiano-24-mesi-1-kg.jpg"
+  image1: "http://www.italianherkut.fi/751/parmiggiano-reggiano-24-mesi-1-kg.jpg"
 })
 
 caciocavallo = Product.create!({
@@ -158,5 +158,5 @@ caciocavallo = Product.create!({
   min_price:10.0,
   final_price:12.0,
   enddate: DateTime.new(2016,12,15,12),
-  image: "http://shop.superlatticini.it/WebRoot/StoreIT5/Shops/16631/5176/930B/AD05/97A3/0056/3E95/9311/C8DB/Caciocavallo_affumicato_S.jpg"
+  image1: "http://shop.superlatticini.it/WebRoot/StoreIT5/Shops/16631/5176/930B/AD05/97A3/0056/3E95/9311/C8DB/Caciocavallo_affumicato_S.jpg"
 })
