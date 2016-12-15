@@ -28,7 +28,7 @@ emily = User.create!({
 
 stilton = Product.create!({
   name: "Stilton",
-  description: "The most delicious Stilton cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 50,
   current_quantity: 0,
@@ -43,7 +43,7 @@ stilton = Product.create!({
 
 gorgonzola = Product.create!({
   name: "Gorgonzola",
-  description: "The most delicious Gorgonzola cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -58,7 +58,7 @@ gorgonzola = Product.create!({
 
 taleggio = Product.create!({
   name: "Taleggio",
-  description: "The most delicious Taleggio cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -73,7 +73,7 @@ taleggio = Product.create!({
 
 burrata = Product.create!({
   name: "Burrata",
-  description: "The most delicious Burrata cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -88,7 +88,7 @@ burrata = Product.create!({
 
 crescenza = Product.create!({
   name: "Crescenza",
-  description: "The most delicious Crescenza cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -103,7 +103,7 @@ crescenza = Product.create!({
 
 mozzarella = Product.create!({
   name: "Mozzarella",
-  description: "The most delicious Mozzarella cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -118,7 +118,7 @@ mozzarella = Product.create!({
 
 pecorino = Product.create!({
   name: "Pecorino",
-  description: "The most delicious Pecorino cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -133,7 +133,7 @@ pecorino = Product.create!({
 
 parmiggiano = Product.create!({
   name: "Parmiggiano",
-  description: "The most delicious Parmiggiano cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
@@ -148,7 +148,7 @@ parmiggiano = Product.create!({
 
 caciocavallo = Product.create!({
   name: "Caciocavallo",
-  description: "The most delicious Caciocavallo cheese of all the land",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   seller_id: emily.id,
   quantity: 30,
   current_quantity: 0,
