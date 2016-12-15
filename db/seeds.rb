@@ -37,7 +37,7 @@ stilton = Product.create!({
   max_price:10.0,
   min_price:8.0,
   final_price:10.0,
-  enddate: DateTime.new(2016,12,15,12),
+  enddate: (Time.now + (60*60*24*10)),
   image: "http://i.dailymail.co.uk/i/pix/2013/03/30/article-0-18605F9F000005DC-421_634x433.jpg"
 })
 
