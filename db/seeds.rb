@@ -203,7 +203,7 @@ tunna = Product.create!({
   image3: "http://www.macrolibrarsi.it/data/cop/zoom/f/filetti-di-tonno-all-olio-di-oliva-extravergine_52555.jpg"
 })
 
-white-truffle = Product.create!({
+truffle = Product.create!({
   name: "White Truffle",
   description: "A truffle is the fruiting body of a subterranean Ascomycete fungus, predominantly one of the many species of the genus Tuber. Truffles are ectomycorrhizal fungi and are therefore usually found in close association with tree roots. Spore dispersal is accomplished through fungivores, animals that eat fungi. Edible truffles are held in high esteem in Croatian, French, Georgian, Greek, Italian, Middle Eastern, and Spanish cooking.",
   seller_id: petra.id,
