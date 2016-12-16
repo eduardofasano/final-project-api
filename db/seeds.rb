@@ -181,9 +181,94 @@ smokedsalmon = Product.create!({
   min_price:21.0,
   final_price:24.0,
   enddate: (Time.now + (60*60*2)),
-  image1: "http://www.bleikerssmokehouse.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/royal-fillet-small.jpg",
-  image2: "https://www.gourmetfoodstore.com/images/Product/large/fossen-norwegian-smoked-salmon-trout-whole-side-1S-2460.jpg",
-  image3: "http://demandware.edgesuite.net/aaxm_prd/on/demandware.static/-/Sites-Traeger-Library/default/dwf5a2de51/images/recipes/cider_hot_smoked_salmon_Hero.jpg"
+  image1: "http://cdn.shopify.com/s/files/1/0579/9009/products/DB_ARTISANAL_CUT_SIDE-closeup-1024x1024.jpg?v=1478806570",
+  image2: "http://cdn.shopify.com/s/files/1/0579/9009/products/DB_ARTISANAL_CUT_1024x1024.jpg?v=1478806495",
+  image3: "http://cdn.shopify.com/s/files/1/0579/9009/files/DB_blog_Whole_Side.jpg?1841"
+})
+
+tunna = Product.create!({
+  name: "Canned Tonno",
+  description: "The question of which type of canned tuna is better – in oil or water – is mostly a question of personal preference. Although, two main considerations one could take into account when deciding between the two involve the overall resulting taste and nutritional benefits. Since oil and water don't mix, water-packed tuna won't leach any of its precious omega-3s.",
+  seller_id: petra.id,
+  quantity: 150,
+  current_quantity: 0,
+  unit:"cans",
+  currency: "£",
+  max_price:10.0,
+  min_price:7.0,
+  final_price:10.0,
+  enddate: (Time.now + (60*60*8)),
+  image1: "http://bio-natural.eu/315-thickbox/filetti-tonno-inolio-italia-ghiglione.jpg",
+  image2: "http://newsroomfromitaly.myblog.it/media/00/00/2767834157.jpg",
+  image3: "http://www.macrolibrarsi.it/data/cop/zoom/f/filetti-di-tonno-all-olio-di-oliva-extravergine_52555.jpg"
+})
+
+white-truffle = Product.create!({
+  name: "White Truffle",
+  description: "A truffle is the fruiting body of a subterranean Ascomycete fungus, predominantly one of the many species of the genus Tuber. Truffles are ectomycorrhizal fungi and are therefore usually found in close association with tree roots. Spore dispersal is accomplished through fungivores, animals that eat fungi. Edible truffles are held in high esteem in Croatian, French, Georgian, Greek, Italian, Middle Eastern, and Spanish cooking.",
+  seller_id: petra.id,
+  quantity: 150,
+  current_quantity: 0,
+  unit:"kg",
+  currency: "£",
+  max_price:200,
+  min_price:180,
+  final_price:200,
+  enddate: (Time.now + (60*60*24*30)),
+  image1: "http://olivebrooklyn.com/dev/wp-content/uploads/2015/09/2_iStock_000061181518_Large-600x530.jpg",
+  image2: "https://cravedfw.files.wordpress.com/2013/11/white-truffle.jpg",
+  image3: "https://trufflehunter.co.uk/wp-content/uploads/2014/06/white131.jpg"
+})
+
+mole = Product.create!({
+  name: "Salsa Mole",
+  description: "Mole poblano contains about 20 ingredients, including chili peppers and chocolate, which works to counteract the heat of the chili peppers, but the chocolate does not dominate. It helps give the sauce its dark color, but this is also provided by the mulato peppers. In contemporary Mexico, the term is used for a number of sauces, some quite dissimilar, including black, red, yellow, colorado (another name for red), green, almendrado, de olla, huaxmole and pipián.",
+  seller_id: julian.id,
+  quantity: 75,
+  current_quantity: 0,
+  unit:"cans",
+  currency: "£",
+  max_price:15,
+  min_price:11,
+  final_price:15,
+  enddate: (Time.now + (60*60*24*11)),
+  image1: "http://lovelypackage.com/wp-content/uploads/2009/01/mole1.jpg",
+  image2: "http://creativeroots.org/wp-content/uploads/2010/12/San-Angel-Mole1.jpg",
+  image3: "http://imaginariacreative.com/images/portfolio/Zukali_LosTres_sm_1338788158_2057.jpg"
+})
+
+chocolate = Product.create!({
+  name: "Dark Chocolate",
+  description: "Dark chocolate (also known as black chocolate or plain chocolate) is a form of chocolate which has a higher content of cocoa butter and less milk than other forms of chocolate. Government and industry standards of what products may be labeled dark chocolate vary by country and market. Dark chocolate contains antioxidants, such as polyphenols, and is relatively low in sugar.",
+  seller_id: antonios.id,
+  quantity: 100,
+  current_quantity: 0,
+  unit:"kg",
+  currency: "£",
+  max_price:20,
+  min_price:16,
+  final_price:20,
+  enddate: (Time.now + (60*60*24*8)),
+  image1: "https://cdn.shopify.com/s/files/1/1087/0872/products/Jus_Trufs_Dark_Chocolate_72__02.jpg?v=1470390656",
+  image2: "http://static.highsnobiety.com/wp-content/uploads/selectism/2015/07/6-Artisanal-Chocolate-Brands-You-Should-Know-07.jpg",
+  image3: "http://static.highsnobiety.com/wp-content/uploads/selectism/2015/07/6-Artisanal-Chocolate-Brands-You-Should-Know-06.jpg"
+})
+
+vinegar = Product.create!({
+  name: "Balsamic Vinegar",
+  description: "The original, costly, traditional balsamic vinegar (Aceto Balsamico Tradizionale), is made from a reduction of cooked white Trebbiano grape juice, and used as a condiment. It has been produced in Modena and Reggio Emilia since the Middle Ages, being mentioned in a document dated 1046. Appreciated in the House of Este during the Renaissance, it is highly valued by modern chefs and gourmet food lovers.",
+  seller_id: antonios.id,
+  quantity: 100,
+  current_quantity: 0,
+  unit:"kg",
+  currency: "£",
+  max_price:20,
+  min_price:16,
+  final_price:20,
+  enddate: (Time.now + (60*60*24*8)),
+  image1: "http://www.ilborgodelbalsamico.it/wp-content/uploads/il-condimento-del-borgo-il-cilindro-rosso.jpg",
+  image2: "http://media.eataly.net/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/a/c/aceto-modena-goccia-d_oro-250ml-39630.jpg",
+  image3: "http://cdn.shopify.com/s/files/1/0282/9714/products/George_Paul_Vinegars_Emilia_Aged_American_Balsamic_Small-batch_Made_in_Nebraska_2_1_of_1.jpg?v=1479694567"
 })
 
 # mozzarella = Product.create!({
