@@ -179,7 +179,7 @@ smokedsalmon = Product.create!({
   currency: "£",
   max_price:24.0,
   min_price:21.0,
-  final_price:11.0,
+  final_price:24.0,
   enddate: (Time.now + (60*60*2)),
   image1: "http://www.bleikerssmokehouse.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/royal-fillet-small.jpg",
   image2: "https://www.gourmetfoodstore.com/images/Product/large/fossen-norwegian-smoked-salmon-trout-whole-side-1S-2460.jpg",
