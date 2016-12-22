@@ -120,7 +120,7 @@ bresaola = Product.create!({
   max_price:18.0,
   min_price:15.0,
   final_price:18.0,
-  enddate: (Time.now + (60*60*24*1)),
+  enddate: (Time.now + (60*60*24*3)),
   image1: "http://images.lacucinaitaliana.it/wp-content/uploads/2016/04/piatto-Bresaola-786x570.jpg",
   image2: "http://www.realformaggi.it/assets/Uploads/Valtellina2.jpg",
   image3: "http://www.lazzeri.it/sites/default/files/styles/fullscreen/public/prodotto/8/impiattato.jpg?itok=9e7wySUD"
@@ -137,7 +137,7 @@ kimtchi = Product.create!({
   max_price:18,
   min_price:15,
   final_price:18,
-  enddate: (Time.now + (60*60*24*4)),
+  enddate: (Time.now + (60*60*24*5)),
   image1: "http://armywifetosuburbanlife.com/wp-content/uploads/2016/02/holding-kimchi.jpg",
   image2: "http://glamgrid.com/wp-content/uploads/2014/01/Top-10-International-Dishes-to-Try-10.jpg",
   image3: "http://d3pah2c10lnl36.cloudfront.net/sura_wp/wp-content/uploads/2015/10/SUra-Korean-Cuisine-Koreas-Greatest-Food-Kimchi-Blog.jpg"
